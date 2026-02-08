@@ -1,0 +1,35 @@
+div 
+{
+	font-family:cambria;
+	font-size: 17px;
+
+	
+	
+}
+.ligne1
+{
+	background-color:black;
+}
+
+nav a{
+	text-decoration: none;
+}
+.boite1
+{
+	display:flex;
+}
+h1{
+	margin:40px 10px;
+}
+
+.photodiplomatie1
+{
+	margin: 15px 15px;
+}
+
+.grosseboite{
+	
+}
+body{
+	background-color: rgba(45, 78, 139,0.5);
+}

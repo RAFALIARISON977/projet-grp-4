@@ -1,0 +1,99 @@
+/* ====== STYLE GENERAL ====== */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(to bottom, #dff1ff, #fefefe);
+    margin: 10px;
+    color: #2c3e50 ;
+body.dark {
+    background-image: url background-dark.jpg ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ecf0f1;
+}
+
+body.dark .news {
+    background-color: rgba(30, 39, 46, 0.9);
+}
+
+/* ====== TITRE PRINCIPAL ====== */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 40px;
+    color: #1f618d;
+    border-bottom: 5px solid #e74c3c;
+    display: inline-block;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+/* ====== BOITE NEWS ====== */
+.news {
+    display: flex;
+    align-items: center ;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 18px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+    gap: 15px;
+}
+
+/* ====== IMAGE ====== */
+.news img {
+    width: 200px;
+    height: auto;
+    border-radius: 110px;
+}
+
+}
+/* ====== CONTENU ====== */
+.content {
+    flex: 1;
+    color: 
+}
+
+/* ====== DATE ====== */
+.date {
+    color: #c0392b  ;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 6px;
+}
+
+/* ====== TITRE ESSENTIEL ====== */
+.content h2 {
+    text-align : centre ;
+    font-size: 200%; 
+    bacbackground-color: #ddd;
+    border-style: solide ;
+    border-color : orange;
+    border-with: 4px;
+    border-radius: 16px;
+    border-left: 12px solid #3498db;
+    padding-left: 12px;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+/* ====== TEXTE ====== */
+.content p {
+    font-size: 16px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+/* ====== RESPONSIVE PHONE ====== */
+@media (max-width: 600px) {
+    .news {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content h2 {
+        text-align: left;
+    }
+} 

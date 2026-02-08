@@ -32,4 +32,16 @@ h1{
 }
 body{
 	background-color: rgba(45, 78, 139,0.5);
+
+}
+
+.conteneur
+{
+    display: flex;
+    margin: 20px;
+}
+
+.box{
+    display: flex;
+    margin: 20px;
 }

@@ -97,3 +97,18 @@ header h1 {
         text-align: left;
     }
 } 
+
+/* accueil */
+.AC a{
+    text-align : centre ;
+    font-size: 200%; 
+    bacbackground-color: #ddd;
+    border-style: solide ;
+    border-color : orange;
+    border-with: 4px;
+    border-radius: 16px;
+    border-left: 12px solid #3498db;
+    padding-left: 12px;
+    margin-bottom: 20px;
+    color: orange ;
+}

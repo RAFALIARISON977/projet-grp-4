@@ -66,3 +66,84 @@ p{
     max-width: 1000px;
     margin-left: 5%;
     margin-bottom:30p
+    color: #fff;
+}
+
+li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    max-width: 1000px;
+    margin-left: 20%;
+    color: #fff;
+    margin-bottom: 10px;
+
+}
+
+#box3 .x img{
+   position: absolute;
+   display: flex;
+    right: 80px;
+    top: 100%;
+    width: 400px;
+    border-radius: 60%;
+    margin-bottom: 10px;
+   
+}
+
+#box4 .y img{
+     position: absolute;
+   display: flex;
+    right:80px;
+    top: 150%;
+    width: 400px;
+    height: 300px;
+    border-radius: 60%;
+   
+   
+
+}
+
+body{
+    background-image: url(image/img/World\ Wide\ Web\ Day.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#box5 img{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 190%;
+    border-radius: 70%;
+    left: 72%;
+
+
+    
+}
+
+#box6 img{
+   position: absolute;
+   display: flex;
+   width: 400px;
+   height: 300px;
+   right: 0;
+   top: 230%;
+   border-radius: 70%;
+   left: 72%;
+}
+
+
+
+
+
+
+
+
+
+   
+
+

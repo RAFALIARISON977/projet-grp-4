@@ -3,38 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <title>Actualités Sportives</title>
-     <link rel="stylesheet" href="style - sport .css">
-   
+    <!-- Manampy ny CSS -->
+    <link rel="stylesheet" href="style - sport .css">
 </head>
-<body >
+<body>
 
+<!-- ====== LOHATENY ====== -->
 <header>
-    <h1>Actualités Sportives</h1>
-    <p>Les dernières nouvelles du sport</p>
-    
+    <h1>Actualités Sportives</h1> <!-- Lohateny lehibe pejy -->
+    <p>Les dernières nouvelles du sport</p> <!-- Sous-titre / fanazavana fohy -->
 </header>
 
-<main class="container">
-<div class="AC"> 
-       <a href="index.html">ACCUEIL</a>
+<!-- ====== BOUTON ACCUEIL ====== -->
+<div class="AC">
+    <a href="index.html">ACCUEIL</a> <!-- Rohy miverina any amin'ny pejy fandraisana -->
 </div>
-    <section class="news">
-        <img src="image/jo2026.jpg" alt="JO 2026">
+
+<main class="container">
+
+    <!-- ====== SECTION FOOTBALL ====== -->
+    <section class="news sport-foot" data-sport="FOOTBALL">
+        <!-- Fond sary / gradient -->
+        <div class="bg-foot"></div>
+        
+        <!-- Slider misy logo club rehetra -->
+        <div class="logo-slide">     
+            <img src="image/barcelona.football-logos.cc.svg" alt="Logo Foot">                    
+            <img src="image/paris-saint-germain.football-logos.cc.svg" alt="Logo Foot">
+            <img src="image/atletico-madrid.football-logos.cc.svg" alt="Logo Foot">
+            <img src="image/bayern-munchen.football-logos.cc.svg" alt="Logo Foot">       
+            <img src="image/chelsea.football-logos.cc.svg" alt="Logo Foot">
+            <img src="image/12.svg" alt="Logo Foot">
+        </div>
+
+        <!-- Sary lehibe / illustration -->
+        <img src="image/ligue-champions.jpg" alt="Ligue des Champions">
+        
+        <!-- Votoatin'ny texte -->
         <div class="content">
-            <h2>Jeux Olympiques d'hiver 2026</h2>
+            <h2>Football : reprise de la Ligue des Champions</h2>
             <p class="date">Février 2026</p>
-            <p>
-                Les Jeux Olympiques d'hiver de 2026 se déroulent à Milan et Cortina d'Ampezzo,
-                en Italie. Cet événement rassemble des athlètes du monde entier.
-            </p>
+            <p>La Ligue des Champions reprend avec les huitièmes de finale. De grands matchs sont attendus.</p>
         </div>
     </section>
 
-    <section class="news">
+    <!-- ====== SECTION BASKET ====== -->
+    <section class="news sport-basket" data-sport="BASKET">
+        <!-- Fond alina + kintana -->
+        <!-- Raha tianao sary: apetraho ao amin'ny .sport-basket::before -->
         <img src="image/Lakers.jpg" alt="Lakers">
         <div class="content">
             <h2>Basket : victoire des Lakers</h2>
             <p class="date">04 février 2026</p>
+            <p>Les Lakers ont remporté une victoire importante grâce à une défense solide et une attaque efficace.</p>
+        </div>
+    </section>
+
+    <!-- ====== SECTION TENNIS ====== -->
+    <section class="news sport-tennis" data-sport="TENNIS">
+        <!-- Fond plage + orana -->
+        <div class="logo-slide">
+            <img src="image/logo-tennis.png" alt="Logo Tennis">
+        </div>
+        <img src="image/coupe-davis.jpg" alt="Coupe Davis">
+        <div class="content">
+            <h2>Tennis : Coupe Davis 2026</h2>
+            <p class="date">Février 2026</p>
+            <p>Les qualifications de la Coupe Davis se déroulent sur une plage magnifique avec soleil et sable blanc.</p>
+        </div>
+    </section>
+
+    <!-- ====== SECTION JO ====== -->
+    <section class="news sport-jo" data-sport="OLYMPICS">
+        <!-- Fond sary / gradient -->
+        <div class="bg-slide"></div>
+        <img src="image/jo2026.jpg" alt="JO 2026">
+        <div class="content">
+            <h2>Jeux Olympiques d'hiver 2026</h2>
+            <p class="date">Février 2026</p>
+            <p>Les Jeux Olympiques d'hiver de 2026 se déroulent à Milan et Cortina d'Ampezzo, en Italie. Cet événement rassemble des athlètes du monde entier.</p>
+        </div>
+    </section>
+
+    <!-- ====== SECTION ATHLÉTISME ====== -->
+    <section class="news sport-athle" data-sport="ATHLETISME">
+        <div class="bg-slid"></div>
+        <img src="image/1770470079941.jpg" alt="Athlétisme">
+        <div class="content">
+            <h2>Athlétisme : saison indoor</h2>
+            <p class="date">07 février 2026</p>
+            <p>La saison indoor est très intense avec plusieurs records battus lors des meetings internationaux.</p>
+        </div>
+    </section>
+
+</main>
+</body>
+</html>            <p class="date">04 février 2026</p>
             <p>
                 Les Lakers ont remporté une victoire importante grâce à une défense solide
                 et une attaque efficace.
